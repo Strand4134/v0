@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char str[]="1+9";
+	int left=str[0]-'0';
+	int right=str[2]-'0';
+	int ran=left+right;
+	printf("ran=%d\n",ran);
+	return 0;
+}
